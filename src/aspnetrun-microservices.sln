@@ -17,12 +17,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Bask
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{14ECD187-9CE9-41CC-935E-1168EE71F46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{027DB90D-700A-43C0-BC38-F20BD82ED91C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{027DB90D-700A-43C0-BC38-F20BD82ED91C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F9927A26-FD43-4453-A44F-054EEF64105D}"
 	ProjectSection(SolutionItems) = preProject
 		locustfile.py = locustfile.py
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{C2444135-A59D-4D48-8F4C-1EF052E86BA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,10 @@ Global
 		{027DB90D-700A-43C0-BC38-F20BD82ED91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{027DB90D-700A-43C0-BC38-F20BD82ED91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{027DB90D-700A-43C0-BC38-F20BD82ED91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2444135-A59D-4D48-8F4C-1EF052E86BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2444135-A59D-4D48-8F4C-1EF052E86BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2444135-A59D-4D48-8F4C-1EF052E86BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2444135-A59D-4D48-8F4C-1EF052E86BA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{B18710F2-2F81-46E1-BD43-08428FFA2CCE} = {1AFDF712-C95C-49F9-88BE-1DDFFF521948}
 		{14ECD187-9CE9-41CC-935E-1168EE71F46D} = {9A01E5EC-1E04-4783-B5D4-64377DBB0295}
 		{027DB90D-700A-43C0-BC38-F20BD82ED91C} = {14ECD187-9CE9-41CC-935E-1168EE71F46D}
+		{C2444135-A59D-4D48-8F4C-1EF052E86BA8} = {14ECD187-9CE9-41CC-935E-1168EE71F46D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C633C24F-BCD8-4978-BC6E-23A8699BAB1D}
